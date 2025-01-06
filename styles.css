@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4E285; /* Flax */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #41658A; /* Lapis Lazuli */
+    width: 100%; /* Expand across the full width of the screen */
+    box-sizing: border-box;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFB997; /* Peach */
+}
+
+header .navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+header .navigation a {
+    text-decoration: none;
+    color: #F4E285; /* Flax */
+    font-size: 1rem;
+}
+
+header .navigation .btn {
+    background-color: #F67E7D; /* Light Coral */
+    color: #FFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: #70A37F; /* Cambridge Blue */
+    width: 100%; /* Expand across the full width of the screen */
+    box-sizing: border-box;
+}
+
+.hero .text-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4C3957; /* English Violet */
+    margin: 0 0 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: #414073; /* Delft Blue */
+    margin-bottom: 2rem;
+}
+
+.hero .about-link {
+    background-color: #FFB997; /* Peach */
+    color: #414073; /* Delft Blue */
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero .image-content {
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .image-content img {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .text-content {
+        max-width: 100%;
+    }
+
+    .hero .image-content {
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+}
