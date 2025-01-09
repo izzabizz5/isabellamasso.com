@@ -1,5 +1,4 @@
 /* Header Styles */
-/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -43,7 +42,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #414073; /* Delfy Blue */
-    color: #000;
+    color: #70A37F; /* Cambridge Blue */
   }
   
   .projects-container {
@@ -57,7 +56,7 @@ body {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 50px;
-    color: #151515;
+    color: #70A37F; /* Cambridge Blue */
   }
   
   .projects-grid {
