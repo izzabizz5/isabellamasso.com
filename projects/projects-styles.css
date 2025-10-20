@@ -95,6 +95,10 @@ body {
     transition: color 0.3s, border-color 0.3s;
   }
   
+  .project-card:hover {
+    background-color: #8d7d5c;
+  }
+
   .project-card a:hover {
     color: #444;
     border-color: #444;
