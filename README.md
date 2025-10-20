@@ -1,2 +1,2 @@
 # isabellamasso.com
- my wesbite
+ my website
